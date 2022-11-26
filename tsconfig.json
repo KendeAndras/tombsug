@@ -1,0 +1,8 @@
+{
+  "compilerOptions": {
+    "watch": true,
+    "outDir": "./public",
+    "module": "commonjs",
+  },
+  "include": ["src/**/*"]
+}

@@ -1,0 +1,46 @@
+<!--
+* File: index.html
+* Author: 2022, Korcsmaros Kende Andras
+* Copyright: 2022, Korcsmaros Kende Andras
+* Group: Szoft 2/N
+* Date: 2022-11-26
+* Github: https://github.com/KendeAndras/
+* License: GNU GPL
+-->
+
+<!DOCTYPE html>
+<html lang="hu">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css" crossorigin="anonymous">
+    <title>tombsug</title>
+</head>
+<body>
+    <p>
+        File: index.html ; 
+        Author: 2022, Korcsmaros Kende Andras ; 
+        Copyright: 2022, Korcsmaros Kende Andras ; 
+        Group: Szoft 2/N ; Date: 2022-11-26 ; 
+        Github: https://github.com/KendeAndras/ ; 
+        License: GNU GPL
+    </p>
+    <div class="container">
+         
+        <h1>Rombuszba írható kör sugara Számítás</h1>
+        <label for="alpha">Alfaszög</label>
+        <input type="text" id="alpha">
+        <br>
+        <label for="side">Oldal</label>
+        <input type="text" id="side">
+        <br>
+        <button class="btn btn-info" id="calcButton" onClick='calcRadius()'>Számít</button>
+        <label>Sugár: </label>
+        <label id="radius"></label>
+
+    <script src="app.js"></script>
+
+    </div>
+</body>
+</html>
